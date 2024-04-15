@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang web của tôi</title>
+    <!-- linkicon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<body>
+    <div class="boxIcon">
+      <box-icon name='menu'></box-icon>
+    </div>
+    <div class="lstmenu">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+</body>
+
+<style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+    .container{
+      border: 1px solid black;
+    }
+    .lstmenu{
+      width: 10px;
+      overflow: hidden;
+      background-color: antiquewhite;
+    }
+    .lstmenu ul{
+      padding-left: 10px;
+    }
+    .boxIcon:active ~ .lstmenu{
+      width: 400px;
+    }
+</style>
+</html>
